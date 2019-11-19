@@ -12,7 +12,7 @@ fantasy_zip.close()
 
 print('\tMovendo Game_sounds.zip...')
 fantasy_zip = zipfile.ZipFile('gameSounds.zip')
-fantasy_zip.extractall(homedir+'REA/SNAKE/sounds/')
+fantasy_zip.extractall(homedir+'/REA/SNAKE/sounds/')
 fantasy_zip.close()
 
 print('\tCriando atalho: SnakeMath.desktop...')
